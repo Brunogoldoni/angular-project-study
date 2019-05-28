@@ -1,0 +1,23 @@
+.search {
+  .form-inline {
+    position: relative;
+    .form-control {
+      padding: 12px 12px 12px 50px;
+      background-color: $background-color;
+      &:focus {
+        box-shadow: none;
+        background-color: $color-white;
+      }
+    }
+    .search {
+    }
+    .search-body {
+      width: 535px;
+    }
+    .fa-search {
+      position: absolute;
+      margin-left: 20px;
+      color: $light-gray;
+    }
+  }
+}

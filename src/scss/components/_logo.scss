@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  align-items: center;
+  .icon {
+    margin: 0;
+  }
+  .line {
+    margin: 0 15px 0 15px;
+    color: $dark-gray;
+  }
+}

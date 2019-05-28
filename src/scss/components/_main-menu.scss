@@ -1,0 +1,25 @@
+.menu {
+  .main-menu {
+    ul {
+      margin: 0;
+      list-style: none;
+
+      li {
+        display: inline;
+        a {
+          display: inline-block;
+          color: $dark-gray;
+          text-decoration: none;
+          padding: 30px 10px;
+          margin: 0 15px;
+          font-weight: bold;
+          &:hover,
+          &.active {
+            color: $dark-text;
+            border-bottom: solid 2px $light-blue;
+          }
+        }
+      }
+    }
+  }
+}

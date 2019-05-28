@@ -1,0 +1,14 @@
+.menu {
+  border-bottom: solid 2px $color-bbottom;
+  background-color: $background-color;
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 112px;
+
+  .main-menu {
+    display: flex;
+    justify-content: center;
+  }
+}

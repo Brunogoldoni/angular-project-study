@@ -1,0 +1,15 @@
+header {
+  background-color: $color-white;
+  padding: 20px;
+  border-bottom: solid 2px $color-bbottom;
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  top: 0;
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}

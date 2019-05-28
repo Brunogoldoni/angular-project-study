@@ -1,0 +1,13 @@
+.infos {
+  display: flex;
+  align-items: center;
+}
+.item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  a {
+    font-size: 25px;
+    color: $dark-gray;
+  }
+}

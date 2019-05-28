@@ -1,0 +1,23 @@
+.header-menu {
+  background-color: $color-white;
+  .box-message {
+    text-decoration: none;
+    .dropdown-content {
+      border: none;
+      .dropdown-content-main {
+        .dropdown-line {
+          color: red;
+        }
+        .dropdown-content-links {
+          a {
+            text-decoration: none;
+            .title {
+            }
+            .sub-title {
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../scss/abstracts/functions";
+@import "../scss/abstracts/mixins";
+@import "../scss/abstracts/variables";
+
+@import "../scss/bootstrap/bootstrap";
+
+@import "../scss/base/animations";
+@import "../scss/base/base";
+@import "../scss/base/typograph";
+@import "../scss/base/utilities";
+
+@import "../scss/sections/header";
+@import "../scss/sections/main-menu";
+
+@import "../scss/components/logo";
+@import "../scss/components/header-menu";
+@import "../scss/components/button";
+@import "../scss/components/search";
+@import "../scss/components/infos-header";
+@import "../scss/components/main-menu";

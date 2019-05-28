@@ -1,0 +1,50 @@
+.box-message {
+  display: flex;
+  align-items: center;
+
+  .message-content {
+    .button {
+      .message-content {
+        font-size: 14px;
+        font-weight: bold;
+        color: $light-blue;
+        a {
+          text-decoration: none;
+          font-weight: bold;
+          color: $light-blue;
+        }
+        i {
+          padding-left: 6px;
+          color: $light-blue;
+          &:hover {
+            color: $color-white;
+          }
+        }
+      }
+    }
+
+    .btn {
+      background-color: $color-white;
+      border: solid 2px $light-blue;
+      border-radius: 20px;
+      &:hover {
+        background-color: $light-blue;
+      }
+    }
+
+    .btn-outline-primary {
+      color: $light-blue;
+      font-size: 16px;
+      font-weight: bold;
+      &:hover {
+        color: $color-white;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    i {
+      padding-left: 6px;
+    }
+  }
+}
